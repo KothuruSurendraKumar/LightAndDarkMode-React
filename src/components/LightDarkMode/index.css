@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.light {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.button {
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 39px;
+  font-weight: bold;
+}
